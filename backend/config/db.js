@@ -4,7 +4,8 @@ const mysql = require('mysql2');
 const pool = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'sua_senha',
+    port: 3306,
+    password: 'Banco1234!',
     database: 'SIGESC',
     waitForConnections: true,
     connectionLimit: 10,
